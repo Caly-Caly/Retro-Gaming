@@ -1,0 +1,140 @@
+@media (max-width: 1200px) {
+  .atari-pic,
+  .nes,
+  .sega,
+  .playstation,
+  .xbox {
+    display: none;
+  }
+  body {
+    background-attachment: fixed;
+    max-width: 600px;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 10px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #0a0631; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ff2e97; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 3px solid #ffae1a;
+  overflow-y: scroll;
+}
+
+a {
+  color: #07e5ff;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #ff59fe;
+}
+
+body {
+  background-image: url("https://i.pinimg.com/originals/d0/e0/e2/d0e0e259bf0aba4da742bedff1d4b8a5.gif");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  color: #ffae1a;
+  font-size: 18px;
+  font-family: Eras ITC;
+  margin: 100px auto;
+  max-width: 1300px;
+}
+
+button {
+  background-color: #ff2e97;
+  box-shadow: 3px 3px 8px #b7b7b7db;
+  border: 6px outset #ffae1a;
+  border-radius: 10px 10px;
+  color: #ffffff;
+  display: block;
+  font-size: 15px;
+  margin: 0 auto;
+  padding: 15px 25px;
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  background-color: #40a9ff;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+div {
+  text-align: center;
+  width: auto;
+}
+
+h1 {
+  background-color: #0a0631;
+  border: 10px outset #07e5ff;
+  border-radius: 20px;
+  line-height: 50px;
+  margin: 15px 10px;
+}
+
+h2 {
+  color: #09f3ff;
+}
+
+h3 {
+  font-size: 28px;
+  color: #ff59fe;
+}
+
+hr {
+  border-color: #ffffff;
+  border-width: 3px;
+}
+
+img {
+  border-radius: 25px;
+  display: block;
+  margin: 8px auto;
+  padding: 10px 20px;
+  max-width: 100%;
+}
+
+p {
+  display: inline-block;
+  line-height: 28px;
+  padding: 25px 20px;
+}
+
+.atari {
+  padding-top: 70px;
+}
+
+.column {
+  display: flex;
+  background-color: rgba(10, 6, 49, 0.9);
+  border: 8px outset #ffae1a;
+  margin-left: 200px;
+  margin-right: 200px;
+  min-height: 100px;
+  overflow: hidden;
+}
+
+.column:hover {
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: transform 200ms ease-in-out;
+  -webkit-transform: scale(1.1);
+  max-width: 100%;
+}
+
+.gaming-column,
+.history,
+.glimps {
+  background-color: #080f2b;
+  border: 8px outset #ffae1a;
+  margin-left: 100px;
+  margin-right: 100px;
+}
