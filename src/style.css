@@ -1,15 +1,20 @@
-@media (max-width: 1200px) {
+:root {
+  --background-color: #0a0631e6;
+}
+
+/* @media (max-width: 1200px) {
   .atari-pic,
   .nes,
   .sega,
   .playstation,
   .xbox {
     display: none;
-  }
-  body {
-    background-attachment: fixed;
-    max-width: 600px;
-  }
+  }  */
+
+body {
+  background-attachment: fixed;
+  margin: 60px auto;
+  max-width: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -28,6 +33,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 a {
+  text-decoration: none;
   color: #07e5ff;
   cursor: pointer;
 }
@@ -45,7 +51,8 @@ body {
   font-size: 18px;
   font-family: Eras ITC;
   margin: 100px auto;
-  max-width: 1300px;
+  max-width: 100%;
+  text-align: center;
 }
 
 button {
@@ -68,12 +75,11 @@ button:hover {
 }
 
 div {
-  text-align: center;
   width: auto;
 }
 
 h1 {
-  background-color: #0a0631;
+  background-color: #0b0632;
   border: 10px outset #07e5ff;
   border-radius: 20px;
   line-height: 50px;
@@ -96,45 +102,29 @@ hr {
 
 img {
   border-radius: 25px;
-  display: block;
-  margin: 8px auto;
-  padding: 10px 20px;
-  max-width: 100%;
+  display: inline-flex;
+  height: auto;
+  text-align: center;
 }
 
 p {
-  display: inline-block;
-  line-height: 28px;
-  padding: 25px 20px;
+  display: block;
+  line-height: 32px;
 }
 
-.atari {
-  padding-top: 70px;
-}
-
-.column {
-  display: flex;
+.columns {
   background-color: rgba(10, 6, 49, 0.9);
   border: 8px outset #ffae1a;
-  margin-left: 200px;
-  margin-right: 200px;
-  min-height: 100px;
-  overflow: hidden;
 }
 
-.column:hover {
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
+.homepageButton {
+  margin-bottom: 100px;
+}
+
+/* :hover 
+  -ms-transform: scale(1.0);
+  transform: scale(1.0);
   transition: transform 200ms ease-in-out;
-  -webkit-transform: scale(1.1);
+  -webkit-transform: scale(1.0);
   max-width: 100%;
-}
-
-.gaming-column,
-.history,
-.glimps {
-  background-color: #080f2b;
-  border: 8px outset #ffae1a;
-  margin-left: 100px;
-  margin-right: 100px;
-}
+  */
