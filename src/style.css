@@ -82,6 +82,8 @@ h1 {
   background-color: #0b0632;
   border: 10px outset #07e5ff;
   border-radius: 20px;
+  font-family: "Handjet", cursive;
+  
   line-height: 50px;
   margin: 15px 10px;
 }
