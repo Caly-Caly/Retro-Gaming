@@ -49,7 +49,6 @@ body {
   background-attachment: fixed;
   color: #ffae1a;
   font-size: 18px;
-  font-family: Eras ITC;
   margin: 100px auto;
   max-width: 100%;
   text-align: center;
@@ -83,12 +82,15 @@ h1 {
   border: 10px outset #07e5ff;
   border-radius: 20px;
   font-family: "Handjet", cursive;
-  
+  font-size: 50px;
   line-height: 50px;
   margin: 15px 10px;
 }
 
 h2 {
+
+  font-size: 45px;
+  font-family: "Handjet", cursive !important;
   color: #09f3ff;
 }
 
@@ -110,6 +112,7 @@ img {
 }
 
 p {
+  font-family: Eras ITC;
   display: block;
   line-height: 32px;
 }
