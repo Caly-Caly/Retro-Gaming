@@ -2,19 +2,16 @@
   --background-color: #0a0631e6;
 }
 
-/* @media (max-width: 1200px) {
-  .atari-pic,
-  .nes,
-  .sega,
-  .playstation,
-  .xbox {
-    display: none;
-  }  */
-
-body {
+@media (max-width: 600px) and (orientation: landscape) {
+  img  {
+    display: none !important;
+  }
+  body {
+    background-size: 100% !important;
+  background-repeat: repeat-x !important;
+  
   background-attachment: fixed;
-  margin: 60px auto;
-  max-width: 100%;
+  }
 }
 
 body::-webkit-scrollbar {
@@ -62,7 +59,6 @@ button {
   color: #ffffff;
   display: block;
   font-size: 15px;
-  margin: 0 auto;
   padding: 15px 25px;
   transition: all 200ms ease-in-out;
 }
@@ -88,10 +84,13 @@ h1 {
 }
 
 h2 {
-
-  font-size: 45px;
-  font-family: "Handjet", cursive !important;
+  background-color: #0b0632;
+  border: 10px outset #ffae1a;
+  border-radius: 20px;
   color: #09f3ff;
+  font-family: "Handjet", cursive !important;
+  font-size: 45px;
+  line-height: 50px;
 }
 
 h3 {
@@ -126,10 +125,7 @@ p {
   margin-bottom: 100px;
 }
 
-/* :hover 
-  -ms-transform: scale(1.0);
-  transform: scale(1.0);
-  transition: transform 200ms ease-in-out;
-  -webkit-transform: scale(1.0);
-  max-width: 100%;
-  */
+.pageButton,
+.surveyButton {
+  margin: 0 auto;
+}
